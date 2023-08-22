@@ -1,0 +1,51 @@
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Radley';
+    font-style: normal;
+    flex-direction: column;
+  }
+  
+  .col1 {
+    flex: 1;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #5785BA;
+  }
+  
+  .col2 {
+    padding-top: 10px;
+    width: 50%;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+    color: #5785BA;
+  }
+  
+  .col3 img {
+    padding-top: 10px;
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .col4 {
+    padding-top: 10px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+    color: #5785BA;
+  }
+  

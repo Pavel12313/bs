@@ -1,0 +1,86 @@
+.second {
+    background-image: url("../images/secondcopy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 800px;
+    flex-direction: column;
+  }
+  
+  .col21 {
+    padding-top: 20px;
+    flex: 1;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #5785BA;
+  }
+  
+  .col22 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px 10px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #5785BA;
+  }
+  
+  .col221 {
+    width: 35%;
+  }
+  
+  .col222 {
+    width: 30%;
+  }
+  
+
+  .col23 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px 10px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #5785BA;
+  }
+  
+
+  .col232 {
+    padding-top: 10px;
+  }
+  
+  .col232 a {
+    color: rgb(87, 133, 186);
+    text-decoration: none;
+  }
+  
+  .col232 a:hover {
+    color: rgb(173, 215, 253);
+  }
+  
+  .col232 a:hover span::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    bottom: 27px;
+    background-color: rgb(173, 215, 253);
+    border-radius: 5px;
+  }
+
+  

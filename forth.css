@@ -1,0 +1,76 @@
+/* Base styles for all screen sizes */
+.forth {
+    background-image: url("./images/v40_73.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    min-height: 1120px; /* Change height to min-height for responsiveness */
+  }
+  
+  .col41 {
+    padding-top: 2%;
+    flex: 1;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #5785BA;
+  }
+  
+  .col42 {
+    padding-top: 40px;
+    width: 100%;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+    color: #5785BA;
+  }
+  
+  .col43 {
+    padding-top: 10px;
+    padding-right: 30%;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: right;
+    color: rgb(87, 133, 186);
+  }
+  
+  .col44 {
+    padding-top: 23%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 200%;
+    color: #5785BA;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .forth {
+      background-position: 10% 30%; /* Adjust the background position for smaller screens */
+      min-height: 800px; /* Reduce the height for smaller screens */
+    }
+  
+    .col41 {
+      font-size: 32px; /* Reduce font size for smaller screens */
+    }
+  
+    .col42,
+    .col43 {
+      font-size: 16px; /* Reduce font size for smaller screens */
+    }
+  
+    .col44 {
+      font-size: 20px; /* Reduce font size for smaller screens */
+    }
+  }
+  

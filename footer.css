@@ -1,0 +1,80 @@
+/* styles.css */
+
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+/* Your custom CSS styles go here */
+
+footer {
+    padding: 0px 0; 
+    background-color: #f7f7f7;
+}
+
+.footer-about {
+    margin-bottom: 20px;
+}
+
+.footer-about img {
+    width: 50px;
+}
+
+.footer-about p {
+    margin: 0;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    display: block;
+    padding: 5px 0; /* Adjusted padding for better spacing on smaller screens */
+    color: #333;
+}
+
+.footer-contact {
+    margin-bottom: 20px;
+}
+
+.footer-contact p {
+    margin: 0 0 5px 0; /* Adjusted margin for better spacing on smaller screens */
+}
+
+.footer-social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 10px 5px 0; /* Adjusted margin for better spacing on smaller screens */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer-bottom {
+    padding: 20px 0; /* Add padding to footer-bottom for better spacing */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #007bff;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  .footer-social a {
+    margin: 0 5px 5px 0; /* Further adjusted margin for better spacing on smaller screens */
+  }
+}

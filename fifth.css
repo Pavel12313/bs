@@ -1,0 +1,128 @@
+.fifth {
+    background-image: url("./images/gall.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    height: 190vh;
+    justify-content: center;
+  }
+  
+  .col51 {
+    padding-top: 2%;
+    flex: 1;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .galgrid {
+    width: 60%;
+    margin: 2rem auto;
+    margin-bottom: 0%;
+  }
+  
+  .col52 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 1.5rem;
+  }
+  
+  figure {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .gallery__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: top;
+  }
+  
+  .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+  
+  .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .gallery__item--3 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .gallery__item--4 {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  }
+  
+  .col53 {
+    padding-bottom: 3%;
+    flex: 1;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 200%;
+    color: #5785BA;
+    text-align: center;
+  }
+  
+  .photograph-layout img {
+    border: 5px solid #ffffff;
+    border-top: 15px solid #ffffff;
+  }
+  
+  .photograph-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .tilted-image {
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .left {
+    transform: rotate(-10deg);
+    margin-right: 1%;
+  }
+  
+  .right {
+    transform: rotate(10deg);
+    margin-left: 1%;
+  }
+  
+  .tilted-image img {
+    width: 96%;
+    display: block;
+    box-shadow: 10px 10px;
+  }
+  

@@ -1,0 +1,77 @@
+/* Base styles for all screen sizes */
+.third {
+    background-image: url("./images/v96_29.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    flex-direction: column;
+    min-height: 950px; /* Change height to min-height for responsiveness */
+  }
+  
+  .col31 {
+    padding-top: 1%;
+    flex: 1;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #5785BA;
+  }
+  
+  .col32 {
+    width: 100%;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+    color: #5785BA;
+    top: 90px;
+  }
+  
+  .col33 {
+    padding-top: 10px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+    color: #5785BA;
+  }
+  
+  .col33 a {
+    color: rgb(87, 133, 186);
+    text-decoration: none;
+  }
+  
+  .col33 a:hover {
+    color: rgb(173, 215, 253);
+  }
+  
+  .col33 a:hover span::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    bottom: 27px;
+    background-color: rgb(173, 215, 253);
+    border-radius: 5px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .third {
+      min-height: 800px; /* Reduce the height for smaller screens */
+    }
+  
+    .col31 {
+      font-size: 32px; /* Reduce font size for smaller screens */
+    }
+  
+    .col32,
+    .col33 {
+      font-size: 16px; /* Reduce font size for smaller screens */
+    }
+  }
+  
